@@ -1,0 +1,11 @@
+{
+  "/test": {
+    "target": "http://aguasandinas.totalpack.cl/",
+    "secure": false,
+    "logLevel": "debug",
+    "pathRewrite": {
+      "^/test": ""
+    },
+    "changeOrigin": true
+  }
+}
